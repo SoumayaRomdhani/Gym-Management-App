@@ -1,29 +1,38 @@
-Gym Management System
-Gym Management System is a C# .NET application designed to streamline gym operations. It offers a comprehensive set of features to effectively manage member information and payments. Leveraging DataGridView for intuitive data display and SQL Server for robust data management, this application simplifies gym administration tasks.
+ Gym Manager
+Gym Manager is a C# .NET application designed to efficiently manage gym operations. It offers a range of features for managing member information and payments effectively.
+
 
 Features
-Add Members: Seamlessly add new members to the gym database.
-Delete Members: Effortlessly remove existing members from the database.
-Modify Member Details: Conveniently update member information, including contact details.
-Search Members: Easily locate members by their name using the search functionality.
-List All Members: View a comprehensive list of all gym members for quick reference.
-Payment Management: Efficiently manage payments for each month to ensure timely processing.
-Filter by Name: Quickly identify unpaid members for a specific month by filtering them by name.
+Member Management: Easily add, delete, and modify member details.
+Search Functionality: Quickly find members by name.
+List All Members: View a comprehensive list of all gym members.
+Payment Management: Track and manage payments for each month.
+Filter by Name: Identify unpaid members by filtering them by name.
 Technologies Used
-C# .NET: Utilized for robust application development and seamless integration.
-SQL Server: Employed as the backend database management system for efficient data storage and retrieval.
-DataGridView: Integrated for visually appealing and user-friendly display of member information.
+C# .NET: Programming language and framework for development.
+SQL Server: Database management system for storing member information and payment records.
+DataGridView: Component for displaying member information in a tabular format.
+
+
+
 Usage
-Adding a Member: Click the "Add Member" button and input the necessary details in the provided form. Save the information to add the member successfully.
+Adding a Member: Click on the "Add Member" button, fill in the required details in the form, and click "Save" to add the member.
 
-Deleting a Member: Select a member from the list and click the "Delete Member" button to remove them from the database.
+Deleting a Member: Select a member from the list and click on the "Delete Member" button to remove them from the database.
 
-Modifying Member Details: Edit member details by double-clicking on their row in the DataGridView and updating the information as required.
+Modifying Member Details: Double-click on a member's row in the DataGridView to edit their details.
 
-Searching for a Member: Enter the name of the desired member in the search bar and press Enter to quickly locate them.
+Searching for a Member: Enter the name of the member in the search bar and press Enter to search.
 
-Viewing All Members: Click on the "List All Members" button to display a complete list of gym members for reference.
+Viewing All Members: Click on the "List All Members" button to display a list of all gym members.
 
-Managing Payments: Utilize the payment management feature to efficiently track and update payment statuses for each month.
+Managing Payments: Use the payment management feature to track and update payment statuses for each month.
 
-Filtering by Name: Enter the name of a member in the filter box to view only those members with matching names, facilitating easy identification of unpaid members.
+Filtering by Name: Enter the name of the member in the filter box to view members with matching names.
+
+
+
+Project Structure
+Member.cs: Contains the definition of the Member class representing gym members.
+Gym.cs: Defines the Gym class responsible for managing gym operations.
+Main.cs: Main program for testing all functionalities of the application.
