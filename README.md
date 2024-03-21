@@ -9,8 +9,8 @@ Gym Manager is a C# .NET application designed to efficiently manage gym operatio
 **Payment Management:** Track and manage payments for each month.
 **Filter by Name:** Identify unpaid members by filtering them by name.
 ## Technologies Used
-**C# .NET:** Programming language and framework for development.
-**SQL Server:** Database management system for storing member information and payment records.
+-**C# .NET:** Programming language and framework for development.
+-**SQL Server:** Database management system for storing member information and payment records.
 
 
 
